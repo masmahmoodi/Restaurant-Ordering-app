@@ -3,9 +3,12 @@ import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 
 const  foodsContainer = document.querySelector(".sec3-container")
 const orderContainer = document.querySelector(".orders-container")
+const pay_form = document.querySelector(".form")
 let sum = 0
 let orders = []
-// const order = document.querySelector(".order")
+let prices = 0
+
+// data rendering
 dataRender()
 function dataRender(){
     menuArray.forEach(function(obj){
@@ -53,10 +56,10 @@ function orderList(orderId){
 
     rednerOrderData(orders)
 }
-let fuck = 0
+
 function rednerOrderData(orders){
     orders.forEach(order=>{
-         fuck = order.price
+        prices = order.price
         orderContainer.innerHTML +=`
         <div class="orders" id="${uuidv4()}">
             <div class="order">
@@ -69,13 +72,13 @@ function rednerOrderData(orders){
         </div>
     `     
     })
-    calculatePrice(fuck)
+    calculatePrice(prices)
     
 }
 
 
-function calculatePrice(price){
-    sum +=price
+function calculatePrice(prices){
+    sum +=prices
     document.querySelector(".total-price").innerHTML = sum
 }
 function removeOrder(orderId, id) {
@@ -105,7 +108,6 @@ book_now.addEventListener("submit",(e)=>{
    
 })
 
-
 const completeBtn = document.querySelector(".complete-btn button");
 const body = document.querySelector("main");
 const header = document.querySelector("header");
@@ -123,7 +125,7 @@ completeBtn.addEventListener("click", () => {
  
 });
 
-const pay_form = document.querySelector(".form")
+
 pay_form.addEventListener("submit",(e)=>{
     e.preventDefault()
     const payFormData = new FormData(pay_form)

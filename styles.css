@@ -13,7 +13,6 @@ body{
     color: white;
     font-size: 20px;
     padding: 30px;
-    /* background-color: red; */
 }
 
 .logo img{
@@ -37,7 +36,6 @@ body{
     width: 100%;
     position: relative;
     color: white;
-    /* padding: 20px 0px; */
 }
 
 .fast-food-background img{
@@ -48,10 +46,6 @@ body{
     display: block;
 }
 
-/* .fast-food-background {
-    position: relative;
-} */
-
 .fast-food-txt{
     position: absolute;
     top: 0;
@@ -59,7 +53,6 @@ body{
 }
 .fast-food-txt h1{
     font-size: 36px;
-    /* padding-bottom: 5px; */
 }
 
 .fast-food-txt p{
@@ -67,45 +60,11 @@ body{
     padding:3px;
 }
 
-/* .section2{
-    background-color:#F4DFC8 ;
-    padding: 45px 0px;
-} */
-/* 
-.sec2-container{
-    background-color: #F4EAE0;
-    margin: 5px 50px;
-    padding: 50px 0px;
-} */
-
-/* .booking{
-    padding:20px 0px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-} */
-
  h2{
     text-align: center;
     color: black;
 
 }
-
-/* .sec2-container input, .book-now{
-    margin: 0px 5px;
-    padding: 10px;
-    width: 250px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-} */
-
-
-/* Existing CSS styles */
-
-
-
-/* Existing CSS styles */
 
 .section2 {
     background-color: #F4DFC8;
@@ -121,7 +80,7 @@ body{
 .booking {
     padding: 20px 0px;
     display: flex;
-    flex-direction: column; /* Set flex-direction to column for vertical arrangement */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -133,7 +92,7 @@ h2 {
 
 .sec2-container input,
 .sec2-container button.book-now {
-    margin: 10px 0; /* Adjust margin for spacing between elements */
+    margin: 10px 0;
     padding: 10px;
     width: 250px;
     border-radius: 10px;
@@ -166,16 +125,6 @@ b{
     color: darkslategrey;
 }
 
-/* button {
-    background-color: #D5CEA3;
-    border: none;
-    color: rgb(165, 112, 5);
-    background-color: #3C2A21;
-    border: none;
-    border-radius: 10px;
-} */
-
-/* Additional styling for labels */
 
 
 
@@ -259,11 +208,6 @@ b{
     
 }
 
-.overlay {
-    opacity: 0.5; /* Set your desired opacity for the body */
-    pointer-events: none;
-}
-
 .section5-form {
     background-color: #000;
     position: absolute;
@@ -315,7 +259,6 @@ b{
         color: white;
         font-size: 16px;
         padding: 2px;
-        /* background-color: red; */
     }
 
     .fast-food-txt{
@@ -334,10 +277,9 @@ b{
     }
 
     .booking {
-        /* width: 100%; */
         padding: 20px 50px;
         display: flex;
-        flex-direction: column; /* Set flex-direction to column for vertical arrangement */
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
