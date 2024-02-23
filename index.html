@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"
+     />
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/mylogo.png" >
+            </div>
+            <div class="social-icons">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div>
+               <button class="contact">Contact us</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section1">
+            <div class="sec1-container">
+                <div class="fast-food-background">
+                    <img src="images/depositphotos_254299856-stock-photo-delicious-burger-meat-french-fries.jpg" class="res-img">
+                </div>
+                <div class="fast-food-txt">
+                    <h1>Most Tasty Foods for you</h1>
+                    <p>Our talented team of chefs sources the finest ingredients to</p>
+                    <p> create a menu that showcases a fusion of flavors from around </p>
+                    <p>the world.From mouthwatering appetizers  </p>
+                </div>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="sec2-container">
+                <h2>Book Table</h2>
+                <form class="booking">
+                    <label for="tableInput">Which table?</label>
+                    <input type="text" id="tableInput" placeholder="Enter table number" name="table" required>
+        
+                    <label for="dateInput">When</label>
+                    <input type="date" id="dateInput" name="date" required>
+        
+                    <label for="timeInput">Time</label>
+                    <input type="time" id="timeInput" name="time" required>
+        
+                    <button class="book-now" type="submit">Book Now</button>
+                </form>
+            </div>
+        </section>
+        
+        <section class="section3">
+            <h2>Our Foods</h2>
+            <div  class="sec3-container">
+                        
+            </div>
+        </section>
+        <section class="section4">
+            <h2>Your Orders</h2>
+            <div class="sec4-container">
+                <div class="orders-container">
+
+                </div>
+                <div class="complete-btn">
+                    <button>Complete Order</button>
+                </div>
+                <div class="total order">
+                    <div>
+                        <h1>Total Price</h1>
+                    </div>
+                    <div>
+                        <h1 class="total-price">$0</h1>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+        <section class="section5-form hidden events ">
+            <h1>Enter your card details</h1>
+              <div>
+                <form class="form">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="text" name="card-num"   placeholder="Enter card number" required>
+                    <input type="text" name="ccv"  placeholder="Enter CCV" required>
+                    <input type="text" name=""  placeholder="Enter discount code">
+                    <button type="submit" class="money-to-pay">Pay</button>
+                    
+                </form>
+              </div>
+
+        </section>
+    <script src="main.js" type="module"></script>
+</body>
+</html>

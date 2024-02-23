@@ -1,0 +1,375 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+.social-icons i{
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    /* background-color: red; */
+}
+
+.logo img{
+    width: 150px;
+}
+
+.header-container{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:10px;
+}
+
+.contact{
+    padding: 10px;
+    font-size: 17px;
+}
+
+.sec1-container{
+    width: 100%;
+    position: relative;
+    color: white;
+    /* padding: 20px 0px; */
+}
+
+.fast-food-background img{
+    width: 100%;
+    height: 500px;
+     object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+/* .fast-food-background {
+    position: relative;
+} */
+
+.fast-food-txt{
+    position: absolute;
+    top: 0;
+    margin:100px;
+}
+.fast-food-txt h1{
+    font-size: 36px;
+    /* padding-bottom: 5px; */
+}
+
+.fast-food-txt p{
+    font-size: 20px;
+    padding:3px;
+}
+
+/* .section2{
+    background-color:#F4DFC8 ;
+    padding: 45px 0px;
+} */
+/* 
+.sec2-container{
+    background-color: #F4EAE0;
+    margin: 5px 50px;
+    padding: 50px 0px;
+} */
+
+/* .booking{
+    padding:20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+} */
+
+ h2{
+    text-align: center;
+    color: black;
+
+}
+
+/* .sec2-container input, .book-now{
+    margin: 0px 5px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+} */
+
+
+/* Existing CSS styles */
+
+
+
+/* Existing CSS styles */
+
+.section2 {
+    background-color: #F4DFC8;
+    padding: 45px 0px;
+}
+
+.sec2-container {
+    background-color: #F4EAE0;
+    margin: 5px 50px;
+    padding: 50px 0px;
+}
+
+.booking {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column; /* Set flex-direction to column for vertical arrangement */
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+.sec2-container input,
+.sec2-container button.book-now {
+    margin: 10px 0; /* Adjust margin for spacing between elements */
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+button {
+    background-color: #D5CEA3;
+    border: none;
+    color: rgb(165, 112, 5);
+    background-color: #3C2A21;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Additional styling for labels */
+.booking label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: gray;
+}
+
+b{
+    color:#40A2D8;
+}
+.booking p{
+    font-size: 20px;
+    color: darkslategrey;
+}
+
+/* button {
+    background-color: #D5CEA3;
+    border: none;
+    color: rgb(165, 112, 5);
+    background-color: #3C2A21;
+    border: none;
+    border-radius: 10px;
+} */
+
+/* Additional styling for labels */
+
+
+
+.section3{
+    background-color: #F4DFC8;
+    
+}
+
+.sec3-container{
+    padding: 45px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.foods-container{
+    width:30%;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+.foods-container img{
+    width: 100%;
+}
+.foods-container div{
+   margin: 10px 0px;
+}
+.food-button{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.food-button button{
+    padding: 10px;
+    width: 150px;
+
+}
+
+.orders{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+
+.order{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.order button{
+    padding: 5px 30px;
+}
+
+.section4{
+    background-color: #40A2D8;
+    padding: 45px 0px;
+}
+
+.complete-btn button, .money-to-pay{
+    padding: 10px;
+    width: 50%;
+    background-color: green;
+    color: white;
+}
+.complete-btn{
+ text-align: center;
+}
+.complete-btn, .total{
+    margin-top: 20px;
+}
+
+
+.total{
+    justify-content: center;
+    
+}
+
+.overlay {
+    opacity: 0.5; /* Set your desired opacity for the body */
+    pointer-events: none;
+}
+
+.section5-form {
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    /* height: 50%; */
+    box-shadow: 0px 0px 1500px gray;
+    pointer-events: auto;
+    padding: 150px 0px;
+    
+}
+.section5-form h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.section5-form input{
+   border: none;
+   outline: none;
+   width: 50%;
+   padding:10px 0px 10px 4px;
+   border-radius: 10px;
+
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+
+
+@media(max-width:768px){
+    header{
+        width: 100%;
+    }
+
+    .social-icons i{
+        color: white;
+        font-size: 16px;
+        padding: 2px;
+        /* background-color: red; */
+    }
+
+    .fast-food-txt{
+        position: absolute;
+        top: 0;
+        margin:100px 0px 0px 20px;
+    }
+    .fast-food-txt h1{
+        font-size: 30px;
+        padding-bottom: 5px;
+    }
+    
+    .fast-food-txt p{
+        font-size: 18px;
+        padding:3px;
+    }
+
+    .booking {
+        /* width: 100%; */
+        padding: 20px 50px;
+        display: flex;
+        flex-direction: column; /* Set flex-direction to column for vertical arrangement */
+        align-items: center;
+        justify-content: center;
+    }
+    .sec2-container {
+        width: 100%;
+        background-color: #F4EAE0;
+        margin: 5px 0px;
+        padding: 50px 0px;
+    }
+    
+    .booking p{
+        font-size: 16px;
+        color: darkslategrey;
+    }
+
+    .section5-form {
+        width: 100%;
+    }
+
+    .foods-container{
+        width:100%;
+        padding: 20px;
+        background-color: #000;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px gray;
+    }
+    .contact{
+        padding: 5px;
+        font-size: 15px;
+    }
+    .logo img{
+        width: 120px;
+    }
+    
+}
