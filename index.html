@@ -91,9 +91,9 @@
               <div>
                 <form class="form">
                     <input type="text" name="name" placeholder="Enter your name" required>
-                    <input type="text" name="card-num"   placeholder="Enter card number" required>
-                    <input type="text" name="ccv"  placeholder="Enter CCV" required>
-                    <input type="text" name=""  placeholder="Enter discount code">
+                    <input type="text" name="card-num"   placeholder="Enter card number" required pattern="[0-9]+" >
+                    <input type="text" name="ccv"  placeholder="Enter CCV" required pattern="[0-9]+" >
+                    <input type="text" name=""  placeholder="Enter discount code" pattern="[0-9]+" >
                     <button type="submit" class="money-to-pay">Pay</button>
                     
                 </form>
