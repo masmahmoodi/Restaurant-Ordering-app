@@ -101,7 +101,7 @@ book_now.addEventListener("submit",(e)=>{
     const data = new FormData(book_now)
     console.log(data.table,data.date,data.time)
     book_now.innerHTML = `
-        <p>thanks you have resrvide table <b>${data.get("table")}</b>  for <b>${data.get("date")}</b> 
+        <p>thanks you have reserve table <b>${data.get("table")}</b>  for <b>${data.get("date")}</b> 
          on <b>${data.get("time")}</b></p>
     `
 
